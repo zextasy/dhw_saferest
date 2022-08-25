@@ -1,0 +1,76 @@
+name: dhw_saferest
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  cupertino_icons: ^1.0.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^0.22.0
+  google_sign_in: ^5.0.7
+  flutter_switch: ^0.3.2
+  pin_code_fields: ^7.3.0
+  sms_autofill: ^2.0.0
+  outline_gradient_button: ^2.0.0+1
+  permission_handler: ^10.0.0
+  file_picker: ^4.6.1
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Lato
+      fonts: 
+        - asset: assets/fonts/LatoRegular.ttf
+          weight: 400
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/MontserratMedium.ttf
+          weight: 500
+        - asset: assets/fonts/MontserratSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/MontserratRegular.ttf
+          weight: 400
+        - asset: assets/fonts/MontserratLight.ttf
+          weight: 300
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/PoppinsBold.ttf
+          weight: 700
+        - asset: assets/fonts/PoppinsLight.ttf
+          weight: 300
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRomanMedium.ttf
+          weight: 500
+    - family: Nunito Sans
+      fonts: 
+        - asset: assets/fonts/NunitoSansRegular.ttf
+          weight: 400
+    - family: DM Sans
+      fonts: 
+        - asset: assets/fonts/DMSansRegular.ttf
+          weight: 400
+        - asset: assets/fonts/DMSansBold.ttf
+          weight: 700
+    - family: Red Hat Display
+      fonts: 
+        - asset: assets/fonts/RedHatDisplayRomanMedium.ttf
+          weight: 500
