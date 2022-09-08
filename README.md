@@ -101,5 +101,5 @@ We were unable to find Images, Please add manually to ```project/assets``` and r
 
 | File Name | Not Found Assets Count |
 | --- | :---: |
-| home_one_screen | 5 |
+| home_one_screen | 10 |
 
