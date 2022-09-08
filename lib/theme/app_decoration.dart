@@ -160,6 +160,15 @@ class AppDecoration {
           ),
         ),
       );
+  static BoxDecoration get etxtOutlineBluegray100 => BoxDecoration(
+        color: ColorConstant.gray50,
+        border: Border.all(
+          color: ColorConstant.bluegray100,
+          width: getHorizontalSize(
+            1.00,
+          ),
+        ),
+      );
   static BoxDecoration get fillGray52 => BoxDecoration(
         color: ColorConstant.gray52,
       );
@@ -350,8 +359,12 @@ class BorderRadiusStyle {
       8.00,
     ),
   );
-
-    static BorderRadius roundedBorder16 = BorderRadius.circular(
+  static BorderRadius etxtRoundedBorder8 = BorderRadius.circular(
+    getHorizontalSize(
+      8.00,
+    ),
+  );
+  static BorderRadius roundedBorder16 = BorderRadius.circular(
     getHorizontalSize(
       16.00,
     ),
