@@ -1,8 +1,8 @@
-import 'package:dhw_saferest/widgets/saferest_home_bottom_bar.dart';
-import 'package:dhw_saferest/widgets/saferest_home_journey_card.dart';
-import 'package:dhw_saferest/widgets/saferest_home_my_activites_card.dart';
-import 'package:dhw_saferest/widgets/saferest_home_services_card.dart';
-import 'package:dhw_saferest/widgets/saferest_home_top_bar.dart';
+import 'package:dhw_saferest/widgets/home_screen/saferest_home_bottom_bar.dart';
+import 'package:dhw_saferest/widgets/home_screen/saferest_home_journey_card.dart';
+import 'package:dhw_saferest/widgets/home_screen/saferest_home_my_activites_card.dart';
+import 'package:dhw_saferest/widgets/home_screen/saferest_home_services_card.dart';
+import 'package:dhw_saferest/widgets/home_screen/saferest_home_top_bar.dart';
 
 import 'controller/home_one_controller.dart';
 import 'package:dhw_saferest/core/app_export.dart';
@@ -15,6 +15,7 @@ class HomeOneScreen extends GetWidget<HomeOneController> {
         child: Scaffold(
             backgroundColor: ColorConstant.whiteA700,
             body: Column(children: [
+              Align(alignment: Alignment.topLeft, child: SaferestHomeTopBar()),
               Expanded(
                   child: Container(
                       height: size.height,
@@ -63,12 +64,6 @@ class HomeOneScreen extends GetWidget<HomeOneController> {
                                                                     MainAxisAlignment
                                                                         .start,
                                                                 children: [
-                                                                  Align(
-                                                                      alignment:
-                                                                          Alignment
-                                                                              .centerLeft,
-                                                                      child:
-                                                                          SaferestHomeTopBar()),
                                                                   Align(
                                                                       alignment:
                                                                           Alignment

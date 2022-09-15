@@ -27,6 +27,7 @@ flutter:
   assets: 
     - assets/
     - assets/images/
+    - assets/images/zaferest/
   fonts: 
     - family: Lato
       fonts: 

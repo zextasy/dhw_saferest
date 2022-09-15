@@ -300,4 +300,12 @@ class ImageConstant {
   static String imgEllipse128 = 'assets/images/img_ellipse12_8.png';
 
   static String imageNotFound = 'assets/images/image_not_found.png';
+
+  static String tripByCarIcon = 'assets/images/zaferest/by_car.png';
+
+  static String tripBySeaIcon = 'assets/images/zaferest/by_sea.png';
+
+  static String tripByRailIcon = 'assets/images/zaferest/by_train.png';
+
+  static String proceedArrowIcon = 'assets/images/zaferest/arrow.png';
 }
