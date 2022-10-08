@@ -1,8 +1,8 @@
-import 'package:dhw_saferest/widgets/home_screen/saferest_home_bottom_bar.dart';
-import 'package:dhw_saferest/widgets/home_screen/saferest_home_journey_card.dart';
-import 'package:dhw_saferest/widgets/home_screen/saferest_home_my_activites_card.dart';
-import 'package:dhw_saferest/widgets/home_screen/saferest_home_services_card.dart';
-import 'package:dhw_saferest/widgets/home_screen/saferest_home_top_bar.dart';
+import 'widgets/saferest_home_bottom_bar.dart';
+import 'widgets/saferest_home_journey_card.dart';
+import 'widgets/saferest_home_my_activites_card.dart';
+import 'widgets/saferest_home_services_card.dart';
+import 'widgets/saferest_home_top_bar.dart';
 
 import 'controller/home_one_controller.dart';
 import 'package:dhw_saferest/core/app_export.dart';
