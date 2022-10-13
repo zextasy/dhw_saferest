@@ -1,3 +1,5 @@
+import 'package:dhw_saferest/presentation/home_one_screen/widgets/home_bg_image.dart';
+
 import 'widgets/saferest_home_bottom_bar.dart';
 import 'widgets/saferest_home_journey_card.dart';
 import 'widgets/saferest_home_my_activites_card.dart';
@@ -25,11 +27,7 @@ class HomeOneScreen extends GetWidget<HomeOneController> {
                             alignment: Alignment.topLeft,
                             child: Padding(
                                 padding: getPadding(bottom: 10),
-                                child: CommonImageView(
-                                    imagePath:
-                                        ImageConstant.imgPlaceyourdesi864X375,
-                                    height: getVerticalSize(812.00),
-                                    width: getHorizontalSize(375.00)))),
+                                child: HomeBGImage())),
                         Align(
                             alignment: Alignment.centerLeft,
                             child: Container(

@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'widgets/aba_trip_card.dart';
 import 'widgets/bottom_nav_bar.dart';
 import 'widgets/uyo_trip_card.dart';
+import 'widgets/all_trips_bg_image.dart';
 
 class AllTripsScreen extends GetWidget<AllTripsController> {
   @override
@@ -22,11 +23,7 @@ class AllTripsScreen extends GetWidget<AllTripsController> {
                         children: [
                           Align(
                               alignment: Alignment.centerLeft,
-                              child: CommonImageView(
-                                  imagePath:
-                                      ImageConstant.imgPlaceyourdesi1597X375,
-                                  height: getVerticalSize(812.00),
-                                  width: getHorizontalSize(375.00))),
+                              child: AllTripsBGImage()),
                           Align(
                               alignment: Alignment.topLeft,
                               child: Container(
