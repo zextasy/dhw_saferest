@@ -1,7 +1,5 @@
 import 'controller/new_trip_controller.dart';
 import 'package:dhw_saferest/core/app_export.dart';
-import 'package:dhw_saferest/widgets/custom_switch.dart';
-import 'package:dhw_saferest/widgets/custom_text_form_field.dart';
 import 'package:flutter/material.dart';
 
 import 'widgets/bottom_nav_bar.dart';
@@ -143,7 +141,7 @@ class NewTripScreen extends GetWidget<NewTripController> {
                                                                                 VehicleDetailsCard(),
                                                                                 JourneyDetailsCard(),
                                                                                 JourneyTrackerCard(),
-                                                                                SelectFriendsCard()
+                                                                                SelectFriendsCard(),
                                                                               ])),
                                                                               Container(height: getVerticalSize(200.00), width: getHorizontalSize(4.00), margin: getMargin(left: 6, top: 173, bottom: 542), decoration: BoxDecoration(color: ColorConstant.whiteA70087))
                                                                             ])))

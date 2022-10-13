@@ -17,71 +17,73 @@ class AllTripsScreen extends GetWidget<AllTripsController> {
                   child: Container(
                       height: size.height,
                       width: size.width,
-                      child: Stack(alignment: Alignment.topLeft, children: [
-                        Align(
-                            alignment: Alignment.centerLeft,
-                            child: CommonImageView(
-                                imagePath:
-                                    ImageConstant.imgPlaceyourdesi1597X375,
-                                height: getVerticalSize(812.00),
-                                width: getHorizontalSize(375.00))),
-                        Align(
-                            alignment: Alignment.topLeft,
-                            child: Container(
-                                margin: getMargin(bottom: 10),
-                                child: Column(
-                                    mainAxisSize: MainAxisSize.min,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    children: [
-                                      Expanded(
-                                          child: SingleChildScrollView(
-                                              child: Container(
-                                                  decoration: AppDecoration
-                                                      .gradientIndigoA400b2Blue900b2,
-                                                  child: Column(
-                                                      mainAxisSize:
-                                                          MainAxisSize.min,
-                                                      crossAxisAlignment:
-                                                          CrossAxisAlignment
-                                                              .center,
-                                                      mainAxisAlignment:
-                                                          MainAxisAlignment
-                                                              .start,
-                                                      children: [
-                                                        Align(
-                                                            alignment: Alignment
-                                                                .centerLeft,
-                                                            child: Container(
-                                                                width: double
-                                                                    .infinity,
-                                                                decoration:
-                                                                    AppDecoration
-                                                                        .fillWhiteA700,
-                                                                child: Column(
-                                                                    mainAxisSize:
-                                                                        MainAxisSize
-                                                                            .min,
-                                                                    crossAxisAlignment:
-                                                                        CrossAxisAlignment
-                                                                            .center,
-                                                                    mainAxisAlignment:
-                                                                        MainAxisAlignment
-                                                                            .start,
-                                                                    children: [
-                                                                      Align(
-                                                                          alignment: Alignment
-                                                                              .centerLeft,
-                                                                          child: Padding(
-                                                                              padding: getPadding(left: 10, right: 10),
-                                                                              child: CommonImageView(imagePath: ImageConstant.imgEllipse198, height: getVerticalSize(1.00), width: getHorizontalSize(145.00))))
-                                                                    ]))),
-                                                        AbaTripCard(),
-                                                        UyoTripCard()
-                                                      ]))))
-                                    ])))
-                      ]))),
+                      child: Stack(
+                        alignment: Alignment.topLeft,
+                        children: [
+                          Align(
+                              alignment: Alignment.centerLeft,
+                              child: CommonImageView(
+                                  imagePath:
+                                      ImageConstant.imgPlaceyourdesi1597X375,
+                                  height: getVerticalSize(812.00),
+                                  width: getHorizontalSize(375.00))),
+                          Align(
+                              alignment: Alignment.topLeft,
+                              child: Container(
+                                  margin: getMargin(bottom: 10),
+                                  child: Column(
+                                      mainAxisSize: MainAxisSize.min,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.start,
+                                      children: [
+                                        Expanded(
+                                            child: SingleChildScrollView(
+                                                child: Container(
+                                                    decoration: AppDecoration
+                                                        .gradientIndigoA400b2Blue900b2,
+                                                    child: Column(
+                                                        mainAxisSize:
+                                                            MainAxisSize.min,
+                                                        crossAxisAlignment:
+                                                            CrossAxisAlignment
+                                                                .center,
+                                                        mainAxisAlignment:
+                                                            MainAxisAlignment
+                                                                .start,
+                                                        children: [
+                                                          Align(
+                                                              alignment: Alignment
+                                                                  .centerLeft,
+                                                              child: Container(
+                                                                  width: double
+                                                                      .infinity,
+                                                                  decoration:
+                                                                      AppDecoration
+                                                                          .fillWhiteA700,
+                                                                  child: Column(
+                                                                      mainAxisSize:
+                                                                          MainAxisSize
+                                                                              .min,
+                                                                      crossAxisAlignment:
+                                                                          CrossAxisAlignment
+                                                                              .center,
+                                                                      mainAxisAlignment:
+                                                                          MainAxisAlignment
+                                                                              .start,
+                                                                      children: [
+                                                                        Align(
+                                                                            alignment:
+                                                                                Alignment.centerLeft,
+                                                                            child: Padding(padding: getPadding(left: 10, right: 10), child: CommonImageView(imagePath: ImageConstant.imgEllipse198, height: getVerticalSize(1.00), width: getHorizontalSize(145.00))))
+                                                                      ]))),
+                                                          AbaTripCard(),
+                                                          UyoTripCard(),
+                                                        ]))))
+                                      ]))),
+                        ],
+                      ))),
               BottomNavBar()
             ])));
   }

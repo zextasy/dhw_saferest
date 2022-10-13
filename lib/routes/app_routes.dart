@@ -146,7 +146,8 @@ class AppRoutes {
 
   static String splashTwoScreen = '/splash_two_screen';
 
-  static String friendListScreen = '/friend_list_screen';
+  static String friendListScreen =
+      '/friends_view_screen'; //'/friend_list_screen';
 
   static String appNavigationScreen = '/app_navigation_screen';
 
